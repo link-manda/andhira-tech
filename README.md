@@ -29,8 +29,33 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Deploy to Netlify
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is pre-configured for static export to be deployed on Netlify.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Automated Deployment
+
+The easiest way to deploy this Next.js app is by importing the repository into Netlify:
+
+1. Push your code to your Git repository (GitHub, GitLab, or BitBucket).
+2. Create a new site on Netlify and select your repository.
+3. Netlify will automatically detect the settings from `netlify.toml`:
+   - **Build command:** `npm run build`
+   - **Publish directory:** `out`
+4. Click **Deploy Site**.
+
+### Manual Deployment (Netlify CLI)
+
+If you prefer deploying via CLI, you can build locally and push the `out` directory:
+
+```bash
+# Build the static site
+npm run build
+
+# Deploy using Netlify CLI
+npx netlify deploy --prod --dir=out
+```
+
+---
+
+_Note: This project uses `output: 'export'` in `next.config.ts`, which generates a static HTML version of the app in the `out` folder. Any server-side features (like API routes or `getServerSideProps`) are not supported in static exports._
