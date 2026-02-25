@@ -18,12 +18,12 @@ export default function Contact() {
             Hubungi Kami
           </h2>
           <h3 className="text-4xl md:text-6xl font-extrabold text-slate-900 mb-6 tracking-tight">
-            Ceritakan kebutuhan <br />
-            teknologi Anda.
+            Ada yang ingin <br />
+            Anda bangun?
           </h3>
           <p className="text-slate-500 text-xl font-light">
-            Mau migrasi sistem lama, bangun SaaS, atau transformasi digital? Tim
-            kami siap mendengarkan dan membantu.
+            Mau migrasi sistem lama, bangun platform SaaS, atau mulai
+            transformasi digital? Kami siap mendengarkan dan langsung bergerak.
           </p>
         </div>
 
@@ -31,11 +31,11 @@ export default function Contact() {
           <div className="lg:col-span-2 space-y-10 order-2 lg:order-1">
             <div className="space-y-4">
               <h4 className="text-2xl font-bold text-slate-900 tracking-tight">
-                Langsung ke Tim Kami
+                Bicara Langsung dengan Tim
               </h4>
               <p className="text-slate-500 font-light">
-                Bicara langsung dengan konsultan teknologi senior kami, tanpa
-                basa-basi.
+                Kami tidak punya script atau template balasan. Setiap proyek
+                kami perlakukan secara personal.
               </p>
             </div>
 
@@ -81,11 +81,9 @@ export default function Contact() {
               <div className="pt-1">
                 <h4 className="font-bold text-slate-900 mb-1">Kantor Pusat</h4>
                 <p className="text-slate-500 leading-relaxed font-light text-lg">
-                  Innovation Tower, Level 42
+                  Jl. Cempaka. GG.II, Sukawati, Kec. Sukawati,
                   <br />
-                  Sudirman Central Business District
-                  <br />
-                  Jakarta Selatan, Indonesia 12190
+                  Kabupaten Gianyar, Bali 80582
                 </p>
               </div>
             </div>
@@ -151,7 +149,7 @@ export default function Contact() {
                 <textarea
                   id="message"
                   rows={5}
-                  placeholder="Jelaskan secara singkat persyaratan teknis atau tujuan bisnis Anda..."
+                  placeholder="Ceritakan kebutuhan atau tujuan bisnis Anda..."
                   className="w-full px-5 py-4 rounded-xl bg-white/50 border border-slate-200 focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-all resize-none font-medium text-slate-900 placeholder:text-slate-400"
                 ></textarea>
               </div>

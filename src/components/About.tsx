@@ -66,20 +66,20 @@ export default function About() {
               Siapa Kami
             </h2>
             <h3 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-8 tracking-tight leading-[1.1]">
-              Pondasi digital <br />
+              Fondasi digital <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
-                untuk bisnis modern.
+                untuk bisnis yang ambisius.
               </span>
             </h3>
             <p className="text-slate-600 mb-6 text-xl leading-relaxed font-light">
-              Andhira adalah tim teknisi berpengalaman yang fokus membangun
-              sistem andal dan platform SaaS siap enterprise — solusi nyata
-              untuk masalah pertumbuhan bisnis Anda.
+              Andhira adalah tim engineer berpengalaman yang membangun sistem
+              andal dan platform SaaS siap enterprise. Kami tidak sekadar coding
+              — kami merancang solusi yang benar-benar selesaikan masalah bisnis
+              Anda.
             </p>
             <p className="text-slate-500 mb-12 text-lg leading-relaxed font-light">
-              Ide besar Anda layak diwujudkan dengan teknologi terbaik. Kami
-              hadir untuk memastikan sistem Anda tumbuh bersama bisnis, bukan
-              menjadi hambatan.
+              Sistem yang lambat dan rontok bukan pilihan. Kami pastikan
+              infrastruktur Anda tumbuh bersama bisnis — bukan jadi penghambat.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-10">
@@ -92,8 +92,8 @@ export default function About() {
                     Misi Kami
                   </h4>
                   <p className="text-base text-slate-500 font-light leading-relaxed">
-                    Mengubah sistem lama yang rumit menjadi arsitektur modern
-                    yang fleksibel, agar bisnis bisa berkembang tanpa batas
+                    Mengubah sistem lama yang kaku menjadi arsitektur modern
+                    yang fleksibel — supaya bisnis bisa berkembang tanpa batas
                     teknis.
                   </p>
                 </div>
@@ -107,7 +107,7 @@ export default function About() {
                     Visi Kami
                   </h4>
                   <p className="text-base text-slate-500 font-light leading-relaxed">
-                    Menjadi mitra transformasi digital terpercaya bagi
+                    Menjadi mitra transformasi digital paling dipercaya oleh
                     perusahaan dan institusi di seluruh Indonesia.
                   </p>
                 </div>

@@ -14,31 +14,31 @@ const reasons = [
   {
     title: "Tim Engineer Berpengalaman",
     description:
-      "Developer senior kami menulis kode yang kuat dan mudah dikelola — bukan kode sekali jalan.",
+      "Developer senior kami menulis kode yang solid dan mudah dimaintain — bukan kode yang jadi masalah setahun kemudian.",
     icon: Users,
   },
   {
     title: "Infrastruktur Zero Downtime",
     description:
-      "Sistem kami dibangun di atas Kubernetes dan CDN global sehingga bisnis Anda tak pernah offline.",
+      "Infrastruktur kami berjalan di atas Kubernetes dan CDN global. Bisnis Anda tetap online, bahkan saat trafik melonjak.",
     icon: Zap,
   },
   {
     title: "Arsitektur Microservices",
     description:
-      "Desain modular yang memisahkan tanggung jawab, agar sistem mudah dikembangkan kapan pun.",
+      "Desain modular yang memisahkan tanggung jawab antar komponen — sistem lebih mudah dikembangkan dan diadaptasi kapan pun.",
     icon: LayoutGrid,
   },
   {
     title: "Skalabilitas Elastis",
     description:
-      "Sistem kami siap menghadapi lonjakan trafik tanpa performa menurun, kapasitas menyesuaikan otomatis.",
+      "Kapasitas sistem menyesuaikan otomatis saat trafik melonjak. Tidak ada gangguan, tidak ada penurunan performa.",
     icon: TrendingUp,
   },
   {
     title: "Keamanan Standar Bank",
     description:
-      "Enkripsi end-to-end dan standar kepatuhan terjaga — data dan IP klien kami lindungi sepenuhnya.",
+      "Enkripsi end-to-end dan kepatuhan standar keamanan industri — data dan aset intelektual klien kami jaga sepenuhnya.",
     icon: Fingerprint,
   },
 ];
@@ -65,23 +65,23 @@ export default function WhyUs() {
               Kenapa Pilih Kami
             </h2>
             <h3 className="text-4xl md:text-6xl font-extrabold mb-8 text-white leading-[1.1] tracking-tight">
-              Lebih dari sekedar vendor.
+              Bukan sekadar vendor.
               <br />
               <span className="text-slate-400 font-light">
-                Kami tim teknik Anda.
+                Kami perpanjangan tim Anda.
               </span>
             </h3>
             <p className="text-slate-300 mb-10 text-xl font-light leading-relaxed max-w-lg">
-              Kami bukan sekadar vendor. Kami hadir sebagai bagian dari tim Anda
-              — membawa kecepatan dan keandalan yang dibutuhkan bisnis untuk
-              tumbuh di era digital.
+              Kami kerja seperti tim internal Anda — cepat, transparan, dan
+              fokus pada hasil. Bukan sekadar kirim kode, tapi pastikan bisnis
+              Anda benar-benar berkembang.
             </p>
 
             <div className="flex flex-col gap-4 mb-12">
               {[
-                "Jaminan Uptime SLA 99.99%",
-                "Sprint 2 Minggu, Hasil Cepat & Terukur",
-                "Standar Keamanan ISO 27001",
+                "Uptime SLA 99.99% Terjamin",
+                "Sprint 2 Minggu, Iterasi Cepat & Terukur",
+                "Keamanan Standar ISO 27001",
               ].map((item, i) => (
                 <div key={i} className="flex items-center gap-3">
                   <CheckCircle2 className="w-5 h-5 text-accent" />

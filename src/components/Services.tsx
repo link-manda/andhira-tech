@@ -15,7 +15,7 @@ const services = [
   {
     title: "Arsitektur Sistem",
     description:
-      "Bangun infrastruktur yang siap skalabel — dari microservices hingga sistem cloud-native untuk kebutuhan enterprise.",
+      "Kami rancang infrastruktur yang siap berkembang — dari microservices hingga sistem cloud-native yang tangguh untuk kebutuhan enterprise.",
     icon: Code2,
     color: "text-accent",
     bg: "bg-accent/10",
@@ -23,7 +23,7 @@ const services = [
   {
     title: "Platform SaaS",
     description:
-      "Kembangkan produk SaaS multi-tenant dengan frontend modern berbasis React/Next.js yang cepat dan mudah dikelola.",
+      "Wujudkan produk SaaS multi-tenant Anda dengan frontend modern berbasis React/Next.js yang cepat, responsif, dan mudah dikelola.",
     icon: Cloud,
     color: "text-emerald-500",
     bg: "bg-emerald-500/10",
@@ -31,7 +31,7 @@ const services = [
   {
     title: "DevOps & Cloud",
     description:
-      "Otomatisasi pipeline CI/CD dan manajemen Kubernetes agar deployment lebih cepat tanpa risiko downtime.",
+      "Otomatisasi pipeline CI/CD dan orkestrasi Kubernetes agar setiap deployment lebih cepat, aman, dan bebas downtime.",
     icon: Server,
     color: "text-indigo-500",
     bg: "bg-indigo-500/10",
@@ -39,7 +39,7 @@ const services = [
   {
     title: "Integrasi Data",
     description:
-      "Hubungkan sistem yang terpisah lewat API gateway dan middleware handal untuk alur data yang mulus dan real-time.",
+      "Hubungkan sistem yang tersebar lewat API gateway dan middleware yang andal — data mengalir mulus dan real-time tanpa hambatan.",
     icon: Network,
     color: "text-purple-500",
     bg: "bg-purple-500/10",
@@ -47,7 +47,7 @@ const services = [
   {
     title: "Transformasi Digital",
     description:
-      "Pandu transisi bisnis dari sistem lama ke arsitektur modern yang lebih lincah dan efisien.",
+      "Kami pandu transisi bisnis Anda dari sistem lama ke arsitektur modern yang lebih lincah, efisien, dan siap bersaing.",
     icon: BarChart3,
     color: "text-rose-500",
     bg: "bg-rose-500/10",
@@ -55,7 +55,7 @@ const services = [
   {
     title: "Pemeliharaan & SRE",
     description:
-      "Monitoring 24/7 oleh tim SRE kami untuk memastikan platform Anda selalu berjalan dengan uptime 99,99%.",
+      "Tim SRE kami monitor sistem Anda 24/7. Kami jaga uptime tetap di angka 99,99% — bisnis Anda tidak pernah berhenti.",
     icon: Wrench,
     color: "text-amber-500",
     bg: "bg-amber-500/10",
@@ -79,11 +79,11 @@ export default function Services() {
             </h2>
             <h3 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6 tracking-tight">
               Dibangun untuk tumbuh. <br />
-              Dirancang untuk bertahan.
+              Dirancang untuk jangka panjang.
             </h3>
             <p className="text-slate-600 text-xl font-light">
-              Layanan IT kami dirancang untuk kebutuhan nyata bisnis — bukan
-              sekadar fitur, tapi solusi yang berdampak langsung.
+              Setiap layanan kami dirancang untuk kebutuhan nyata bisnis — bukan
+              fitur demi fitur, tapi solusi yang punya dampak langsung.
             </p>
           </div>
           <button className="hidden md:flex items-center gap-2 font-bold text-primary hover:text-accent transition-colors pb-2">

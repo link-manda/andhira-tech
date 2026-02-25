@@ -8,7 +8,7 @@ const solutions = [
     title: "Sistem HRIS",
     tagline: "Manajemen SDM Modern",
     description:
-      "Platform manajemen karyawan next-gen dengan analitik performa berbasis AI dan penggajian otomatis yang terintegrasi penuh.",
+      "Kelola seluruh siklus SDM dalam satu platform — dari rekrutmen, penggajian otomatis, hingga analitik performa berbasis data.",
     category: "Platform SaaS",
     color: "from-[#0F172A] to-[#1E293B]",
     accent: "bg-blue-500",
@@ -17,7 +17,7 @@ const solutions = [
     title: "ProcureSync",
     tagline: "Pengadaan Perusahaan",
     description:
-      "Portal manajemen vendor B2B yang menyederhanakan rantai pasok — proses persetujuan hingga 80% lebih cepat.",
+      "Sederhanakan rantai pengadaan B2B Anda — dari seleksi vendor hingga persetujuan kontrak, prosesnya 80% lebih cepat.",
     category: "Integrasi Sistem",
     color: "from-[#0F172A] to-[#022C22]",
     accent: "bg-emerald-500",
@@ -26,7 +26,7 @@ const solutions = [
     title: "FinMatrix",
     tagline: "Hub Data Finansial",
     description:
-      "Middleware API keuangan throughput tinggi yang menyatukan berbagai protokol perbankan ke dalam satu dashboard terpadu.",
+      "Hubungkan berbagai sistem perbankan ke satu dashboard terpadu. Middleware keuangan throughput tinggi, siap untuk skala enterprise.",
     category: "API Inti",
     color: "from-[#0F172A] to-[#311024]",
     accent: "bg-pink-500",
@@ -43,17 +43,17 @@ export default function Solutions() {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">
           <div className="max-w-3xl">
             <h2 className="text-sm font-bold text-accent uppercase tracking-widest mb-4">
-              Produk & Karya Kami
+              Produk &amp; Karya Kami
             </h2>
             <h3 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6 tracking-tight">
-              Solusi yang sudah <br />
+              Solusi nyata, <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
-                terbukti bekerja.
+                hasil yang terukur.
               </span>
             </h3>
             <p className="text-slate-600 text-xl font-light leading-relaxed">
-              Platform kami dibangun untuk menangani jutaan request dan
-              menyederhanakan proses bisnis yang kompleks secara efisien.
+              Platform kami dirancang untuk menangani jutaan request dan
+              menyederhanakan proses bisnis yang paling kompleks sekalipun.
             </p>
           </div>
           <button className="hidden md:flex items-center gap-2 px-6 py-3 rounded-full bg-white border border-slate-200 text-slate-900 font-bold hover:shadow-lg hover:-translate-y-0.5 transition-all w-max shadow-sm">

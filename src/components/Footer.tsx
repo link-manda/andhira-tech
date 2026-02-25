@@ -30,8 +30,8 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-slate-400 text-lg leading-relaxed mb-8 font-light max-w-sm">
-              Kami bangun sistem yang menopang pertumbuhan bisnis Anda. Andal,
-              skalabel, dan aman sejak hari pertama.
+              Sistem andal, platform skalabel, dan tim yang benar-benar peduli
+              dengan pertumbuhan bisnis Anda.
             </p>
             <div className="flex gap-4">
               <a
@@ -58,7 +58,7 @@ export default function Footer() {
           {/* Quick Links */}
           <div>
             <h4 className="text-white font-bold mb-6 tracking-wide uppercase text-sm">
-              Platform
+              Navigasi
             </h4>
             <ul className="space-y-4">
               <li>
@@ -66,7 +66,7 @@ export default function Footer() {
                   href="#home"
                   className="hover:text-amber-400 transition-colors text-base font-medium"
                 >
-                  Ringkasan
+                  Beranda
                 </a>
               </li>
               <li>
@@ -74,7 +74,7 @@ export default function Footer() {
                   href="#services"
                   className="hover:text-amber-400 transition-colors text-base font-medium"
                 >
-                  Arsitektur
+                  Layanan
                 </a>
               </li>
               <li>
@@ -82,7 +82,7 @@ export default function Footer() {
                   href="#solutions"
                   className="hover:text-amber-400 transition-colors text-base font-medium"
                 >
-                  Studi Kasus
+                  Solusi
                 </a>
               </li>
               <li>
@@ -90,7 +90,7 @@ export default function Footer() {
                   href="#about"
                   className="hover:text-amber-400 transition-colors text-base font-medium"
                 >
-                  Perusahaan
+                  Tentang Kami
                 </a>
               </li>
             </ul>
@@ -99,7 +99,7 @@ export default function Footer() {
           {/* Services */}
           <div>
             <h4 className="text-white font-bold mb-6 tracking-wide uppercase text-sm">
-              Kapabilitas
+              Layanan
             </h4>
             <ul className="space-y-4">
               <li>
@@ -107,7 +107,7 @@ export default function Footer() {
                   href="#"
                   className="hover:text-emerald-400 transition-colors text-base font-medium"
                 >
-                  Layanan Mikro
+                  Microservices
                 </a>
               </li>
               <li>
@@ -115,7 +115,7 @@ export default function Footer() {
                   href="#"
                   className="hover:text-emerald-400 transition-colors text-base font-medium"
                 >
-                  Infrastruktur Cloud
+                  Cloud & Infrastruktur
                 </a>
               </li>
               <li>
@@ -148,7 +148,7 @@ export default function Footer() {
           {/* Legal */}
           <div>
             <h4 className="text-white font-bold mb-6 tracking-wide uppercase text-sm">
-              Hukum
+              Legal
             </h4>
             <ul className="space-y-4">
               <li>
@@ -181,14 +181,14 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-base text-slate-500 font-light text-center md:text-left">
-            &copy; {currentYear} PT Andhira Teknologi Nusantara. Hak cipta
-            dilindungi undang-undang.
+            &copy; {currentYear} PT Andhira Teknologi Nusantara. Seluruh hak
+            cipta dilindungi.
           </p>
           <p className="text-base text-slate-500 font-light flex items-center gap-2">
             Status:{" "}
             <span className="flex items-center gap-1.5 text-emerald-400 font-medium">
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />{" "}
-              Semua Sistem Aktif
+              Semua Sistem Beroperasi Normal
             </span>
           </p>
         </div>

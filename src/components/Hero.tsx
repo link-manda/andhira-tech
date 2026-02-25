@@ -78,9 +78,9 @@ export default function Hero() {
             variants={itemVariants}
             className="text-5xl md:text-7xl lg:text-8xl font-extrabold text-white mb-8 leading-[1.1] max-w-4xl mx-auto tracking-tight"
           >
-            Teknologi yang bekerja <br />
+            Teknologi yang tepat, <br />
             <span className="gradient-text italic pr-2">
-              untuk bisnis Anda.
+              bisnis yang tumbuh.
             </span>
           </motion.h1>
 
@@ -88,8 +88,9 @@ export default function Hero() {
             variants={itemVariants}
             className="text-lg md:text-xl text-slate-300 xl:text-2xl mb-12 max-w-2xl text-center leading-relaxed font-light"
           >
-            Kami bantu bisnis Anda tumbuh lewat sistem yang kuat, platform SaaS
-            siap pakai, dan layanan IT yang terukur.
+            Dari sistem backend yang andal hingga platform SaaS siap pakai —
+            kami hadirkan solusi teknologi yang langsung berdampak pada bisnis
+            Anda.
           </motion.p>
 
           <motion.div
@@ -103,7 +104,7 @@ export default function Hero() {
                 onClick={() => scrollTo("#contact")}
                 className="relative w-full sm:w-auto px-8 py-4 rounded-full bg-white text-primary font-bold text-lg hover:shadow-xl transition-all flex items-center justify-center gap-2"
               >
-                Konsultasi Gratis
+                Mulai Konsultasi Gratis
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
             </div>
@@ -111,7 +112,7 @@ export default function Hero() {
               onClick={() => scrollTo("#services")}
               className="px-8 py-4 rounded-full glass-dark text-white font-bold text-lg hover:bg-white/10 transition-all flex items-center justify-center gap-2 w-full sm:w-auto border border-white/10"
             >
-              Lihat Layanan Kami
+              Eksplorasi Layanan
               <ChevronRight className="w-5 h-5" />
             </button>
           </motion.div>
