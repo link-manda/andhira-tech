@@ -51,7 +51,7 @@ export default function Contact() {
                   href="mailto:sales@andhiratech.com"
                   className="text-slate-500 hover:text-accent font-medium transition-colors text-lg"
                 >
-                  sales@indhira-tech.my.id
+                  sales@andhira-tech.my.id
                 </a>
               </div>
             </div>
