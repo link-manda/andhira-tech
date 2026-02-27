@@ -56,7 +56,7 @@ export default function Navbar() {
               }}
               className="flex items-center gap-3 group"
             >
-              <div className="relative flex items-center justify-center shrink-0">
+              {/* <div className="relative flex items-center justify-center shrink-0">
                 <Image
                   src="/logo.png"
                   alt="PT Andhira Teknologi Nusantara Logo"
@@ -64,7 +64,7 @@ export default function Navbar() {
                   height={36}
                   className="object-contain w-auto h-8 sm:h-9 rounded-lg sm:rounded-xl shadow-sm group-hover:scale-105 transition-transform duration-300"
                 />
-              </div>
+              </div> */}
               <span
                 className={`font-bold text-xl sm:text-2xl tracking-tight transition-colors ${
                   isScrolled ? "text-primary" : "text-white"

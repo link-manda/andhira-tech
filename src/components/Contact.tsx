@@ -44,9 +44,7 @@ export default function Contact() {
                 <Mail className="w-6 h-6 text-accent" strokeWidth={1.5} />
               </div>
               <div className="pt-1">
-                <h4 className="font-bold text-slate-900 mb-1">
-                  Email Tim Kami
-                </h4>
+                <h4 className="font-bold text-slate-900 mb-1">Email</h4>
                 <a
                   href="mailto:sales@andhiratech.com"
                   className="text-slate-500 hover:text-accent font-medium transition-colors text-lg"
@@ -61,7 +59,7 @@ export default function Contact() {
                 <Phone className="w-6 h-6 text-secondary" strokeWidth={1.5} />
               </div>
               <div className="pt-1">
-                <h4 className="font-bold text-slate-900 mb-1">Telepon Kami</h4>
+                <h4 className="font-bold text-slate-900 mb-1">Telepon</h4>
                 <a
                   href="tel:+62895623318351"
                   className="text-slate-500 hover:text-secondary font-medium transition-colors text-lg"
@@ -79,7 +77,7 @@ export default function Contact() {
                 />
               </div>
               <div className="pt-1">
-                <h4 className="font-bold text-slate-900 mb-1">Kantor Pusat</h4>
+                <h4 className="font-bold text-slate-900 mb-1">Alamat</h4>
                 <p className="text-slate-500 leading-relaxed font-light text-lg">
                   Jl. Cempaka. GG.II, Sukawati, Kec. Sukawati,
                   <br />
