@@ -1,25 +1,33 @@
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import About from "@/components/About";
-import Services from "@/components/Services";
-import WhyUs from "@/components/WhyUs";
-import Solutions from "@/components/Solutions";
-import CTA from "@/components/CTA";
-import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
+import { Navbar } from "@/components/layout/Navbar";
+import { HeroSection } from "@/components/sections/HeroSection";
+import { TrustedBySection } from "@/components/sections/TrustedBySection";
+import { ServicesSection } from "@/components/sections/ServicesSection";
+import { UseCasesSection } from "@/components/sections/UseCasesSection";
+import { AdvantagesSection } from "@/components/sections/AdvantagesSection";
+import { ProcessSection } from "@/components/sections/ProcessSection";
+import { PortfolioSection } from "@/components/sections/PortfolioSection";
+import { TestimonialSection } from "@/components/sections/TestimonialSection";
+import { FAQSection } from "@/components/sections/FAQSection";
+import { FinalCTASection } from "@/components/sections/FinalCTASection";
+import { Footer } from "@/components/layout/Footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-slate-50">
+    <>
       <Navbar />
-      <Hero />
-      <About />
-      <Services />
-      <WhyUs />
-      <Solutions />
-      <CTA />
-      <Contact />
+      <main className="flex min-h-screen flex-col">
+        <HeroSection />
+        <TrustedBySection />
+        <ServicesSection />
+        <UseCasesSection />
+        <AdvantagesSection />
+        <ProcessSection />
+        <PortfolioSection />
+        <TestimonialSection />
+        <FAQSection />
+        <FinalCTASection />
+      </main>
       <Footer />
-    </main>
+    </>
   );
 }
